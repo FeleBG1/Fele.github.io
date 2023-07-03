@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka One");
+
+*{
+    font-family: "Fredoka One";
+    letter-spacing: 3px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url(https://media.discordapp.net/attachments/935886926819504169/1125266208585961562/Untitled.png);
+    background-repeat: no-repeat;
+    background-size: 10000000px;
+    background-position: center;
+}   
+
+.BTN1 {
+    width: 200px;
+    height: 100px;
+    background-color:transparent;
+    background-position: center;
+    background-image: url(https://media.discordapp.net/attachments/935886926819504169/1125260355875115039/twt.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    border: none;
+    transition: ease-in .1s;
+    rotate: 0deg;
+}
+
+.BTN2 {
+    width: 200px;
+    height: 100px;
+    background-color:transparent;
+    background-position: center;
+    background-image: url(https://media.discordapp.net/attachments/935886926819504169/1125259428527087687/utu.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    border: none;
+    transition: ease-in .1s;
+    rotate: 0deg;
+}
+
+.BTN3 {
+    width: 200px;
+    height: 100px;
+    background-color:transparent;
+    background-position: center;
+    background-image: url(https://media.discordapp.net/attachments/935886926819504169/1125260702676942898/roblox.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    border: none;
+    transition: ease-in .1s;
+    rotate: 0deg;
+}
+
+.BTN4 {
+    width: 200px;
+    height: 100px;
+    background-color:transparent;
+    background-position: center;
+    background-image: url(https://media.discordapp.net/attachments/935886926819504169/1125261144911786146/kofi.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    border: none;
+    transition: ease-in .1s;
+    rotate: 0deg;
+}
+
+
+.BTN1:hover {
+    rotate: -5deg;
+    width: 220px;
+    height: 120px;
+}
+.BTN2:hover {
+    rotate: 5deg;
+    width: 220px;
+    height: 120px;
+}
+
+.BTN3:hover {
+    rotate: -5deg;
+    width: 220px;
+    height: 120px;
+}
+
+.BTN4:hover {
+    rotate: 5deg;
+    width: 220px;
+    height: 120px;
+}
+
